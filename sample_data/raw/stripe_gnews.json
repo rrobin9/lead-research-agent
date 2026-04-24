@@ -1,0 +1,170 @@
+{
+  "information": {
+    "realTimeArticles": {
+      "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
+    }
+  },
+  "totalArticles": 128,
+  "articles": [
+    {
+      "id": "b40a9234f6adcbe7b5669e39822affd8",
+      "title": "DoorDash Partners With Stripe and Tempo to Power Global Stablecoin Payments",
+      "description": "DoorDash partners with Stripe-backed Tempo blockchain to launch global stablecoin payments for merchants and Dashers across 40+ countries.",
+      "content": "DoorDash has partnered with Tempo, the Stripe and Paradigm-backed payments blockchain, to roll out stablecoin-powered payouts across its global marketplace spanning more than 40 countries.\nThe collaboration announced in a blog post promises faster an... [2544 chars]",
+      "url": "https://coingape.com/block-of-fame/pulse/doordash-partners-with-stripe-and-tempo-to-power-global-stablecoin-payments/",
+      "image": "https://coingape.com/wp-content/uploads/2026/04/DoorDash-Partners-With-Stripe-and-Temp.webp",
+      "publishedAt": "2026-04-22T14:11:20Z",
+      "lang": "en",
+      "source": {
+        "id": "4ed63e86c0ccd22ea875486a3ec6aad4",
+        "name": "CoinGape",
+        "url": "https://coingape.com",
+        "country": "in"
+      }
+    },
+    {
+      "id": "ae22663b170ef28ce350e526c1adff12",
+      "title": "DoorDash to Pay Delivery Workers in Stablecoins via Stripe's Tempo Blockchain",
+      "description": "Delivery firm DoorDash will use Stripe's payments-focused blockchain, Tempo, to pay its Dashers in stablecoins in more than 40 countries.",
+      "content": "In brief\nDoorDash will use Tempo, Stripe's payments and stablecoin-focused blockchain, to pay workers and merchants in 40+ countries.\nThe firm believes stablecoins can reduce payment settlement times and fees for foreign currency spreads and intermed... [2787 chars]",
+      "url": "https://decrypt.co/365028/doordash-pay-delivery-workers-tablecoins-stripe-tempo-blockchain",
+      "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Stripe-logo-at-their-headquarters-in-San-Francisco-gID_7.jpg",
+      "publishedAt": "2026-04-21T15:54:35Z",
+      "lang": "en",
+      "source": {
+        "id": "6956007add5fc13a6721202ec906b1c4",
+        "name": "Decrypt",
+        "url": "https://decrypt.co",
+        "country": "us"
+      }
+    },
+    {
+      "id": "3e466ae3648eda70a457e25525607ad8",
+      "title": "Stripe And Paradigm's Tempo Blockchain Valued At $5B Lands DoorDash Partnership",
+      "description": "Tempo and DoorDash launch stablecoin payments in 40+ countries, expanding real-world crypto payouts and global merchant flows.",
+      "content": "The DoorDash Integration\nDoorDash plans to offer stablecoin payments for merchants and delivery workers across more than 40 countries.\nThe feature will allow faster and cheaper payouts by DoorDash, which processes payments between consumers, merchant... [1743 chars]",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/04/51944154/stripe-and-paradigms-tempo-blockchain-valued-at-5b-lands-doordash-partnership",
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/21/DoorDash-Photo-by-Diego-Thomazini-on-Shu.jpeg?width=1200&height=800&fit=crop",
+      "publishedAt": "2026-04-21T15:16:37Z",
+      "lang": "en",
+      "source": {
+        "id": "d4e7f6a65e15620f4e4044691a99d0fd",
+        "name": "Benzinga",
+        "url": "https://www.benzinga.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "5bb2e0068b3193e61880ddf1f7369075",
+      "title": "DoorDash joins massive fintech push to bring stablecoins payouts to merchants",
+      "description": "The delivery service is working with the Stripe-led blockchain firm Tempo to bring stablecoin payouts to its global marketplace, replacing fragmented regional rails.",
+      "content": "DoorDash and a group of fintechs are moving stablecoins into their live payment flows with Stripe-led blockchain Tempo, the latest sign that blockchain-based money is entering mainstream financial infrastructure.\nPayments-focused blockchain Tempo, de... [2333 chars]",
+      "url": "https://www.coindesk.com/business/2026/04/21/doordash-is-bringing-stablecoin-payments-to-masses-with-stripe-backed-blockchain",
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/7ddf6c1cb2e3fdeebbdb2bbbd0bd2ec0e6f3bd86-5320x3377.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "publishedAt": "2026-04-21T14:18:51Z",
+      "lang": "en",
+      "source": {
+        "id": "75ca59dd354694befc1cf6038cf9ca33",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "c70df87456586f8d1498267ce2ae6eb7",
+      "title": "Dunelm's \u00a3200 striped bistro set comes in two colours and will bring 'effortless style' to gardens",
+      "description": "The Stripe Cushion Bistro Set is new on Dunelm's website ahead of summer",
+      "content": "The Stripe Cushion Bistro Set is new on Dunelm's website ahead of summer\nFor those looking to brighten up their outdoor spaces ahead of the summer months, look no further than Dunelm.\nThe Stripe Cushion Bistro Set is new on Dunelm's website this week... [2349 chars]",
+      "url": "https://www.birminghammail.co.uk/whats-on/shopping/dunelms-200-striped-bistro-set-33810980",
+      "image": "https://i2-prod.birminghammail.co.uk/article33809467.ece/ALTERNATES/s1200d/3_LBR_ML_160326_dunelmroundottomantray.jpg",
+      "publishedAt": "2026-04-21T14:07:59Z",
+      "lang": "en",
+      "source": {
+        "id": "cc0de8416f75329df7c88d7524745d12",
+        "name": "Birmingham Live",
+        "url": "https://www.birminghammail.co.uk",
+        "country": "gb"
+      }
+    },
+    {
+      "id": "c507e4d412105366415561a27068d303",
+      "title": "DoorDash tests stablecoin payroll as Tempo lands blue-chip clients",
+      "description": "DoorDash is working with Stripe- and Paradigm-backed Tempo to explore paying delivery workers in stablecoins, as Visa, banks and fintechs plug into Tempo's",
+      "content": "DoorDash is working with Stripe- and Paradigm-backed Tempo to explore paying delivery workers in stablecoins, as Visa, banks and fintechs plug into Tempo\u2019s rails.\nDoorDash is teaming up with blockchain project Tempo to explore paying its delivery cou... [1952 chars]",
+      "url": "https://crypto.news/doordash-tests-stablecoin-payroll-as-tempo-lands-blue-chip-clients/",
+      "image": "https://media.crypto.news/2025/09/crypto-news-exchange-dollar-option03.webp",
+      "publishedAt": "2026-04-21T14:02:41Z",
+      "lang": "en",
+      "source": {
+        "id": "e1b896cc9b8775d3aaac2320e6dcf1f6",
+        "name": "Crypto News",
+        "url": "https://crypto.news",
+        "country": "lt"
+      }
+    },
+    {
+      "id": "b1182c8ab33e217e63f3d83e2e56997d",
+      "title": "Stripe and Paradigm-backed blockchain Tempo launches advisory unit to promote stablecoin adoption",
+      "description": "DoorDash, Visa, and Stripe are using Tempo for payments infrastructure",
+      "content": "Tempo has been closely watched in the crypto space since Fortune first reported on its existence in mid-2025. After disclosing a $500 million funding round that valued the company at $5 billion in October, Tempo formally launched in March. Now, the p... [1637 chars]",
+      "url": "https://fortune.com/2026/04/21/stripe-and-paradigm-tempo-advisory-stablecoin-adoption/",
+      "image": "https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2156551211-e1776740514878.jpg?resize=1200,600",
+      "publishedAt": "2026-04-21T13:00:00Z",
+      "lang": "en",
+      "source": {
+        "id": "02bfab6ed0cea51c8a0eb8e58d8caef7",
+        "name": "Fortune",
+        "url": "https://fortune.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "1dff9a2d67b290dacd29c6acad3d0a0d",
+      "title": "Stripe and Tide engineers raise \u20ac7.5M for a fintech",
+      "description": "Dublin and London fintech Seapoint raises \u20ac7.5M seed led by 13books, opens to all UK and Irish startup founders.",
+      "content": "The Dublin and London-based fintech, founded by ex-Stripe and ex-Tide engineers, has processed over 100,000 transactions and 40,000 invoices across 80+ early customers. Its \u20ac7.5M seed round, led by 13books, brings total funding to \u20ac10M and opens the ... [4084 chars]",
+      "url": "https://thenextweb.com/news/seapoint-raises-e7-5m-and-opens-to-all-uk-and-irish-founders",
+      "image": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2026/04/Seapoint.png",
+      "publishedAt": "2026-04-21T09:34:45Z",
+      "lang": "en",
+      "source": {
+        "id": "11c2fbf226e7334e9f93bb78243a79cc",
+        "name": "TNW",
+        "url": "https://thenextweb.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "e2d943a9f9d01c3598353a31ac7e92c0",
+      "title": "Stripe alum's Seapoint raises \u20ac7.5m as \u2018financial home\u2019 to start-ups",
+      "description": "Led by former Stripe European CIO Sean Mullaney, Seapoint Finance wants to become the \"financial home\" for all ambitious European start-ups.",
+      "content": "Seapoint Finance\u2019s seed round comes shortly after a pre-seed round of \u20ac3m in September 2025.\nThe platform, which the Dublin-based company has dubbed an \u201cAI-powered financial home for start-ups\u201d, was founded in January 2025 by a group of former Stripe... [2157 chars]",
+      "url": "https://www.siliconrepublic.com/start-ups/stripe-alumnis-seapoint-raises-e7-5m-for-financial-home-for-start-ups",
+      "image": "https://www.siliconrepublic.com/wp-content/uploads/2026/04/Seapoint-Finance-Team-2026.jpg",
+      "publishedAt": "2026-04-21T07:47:58Z",
+      "lang": "en",
+      "source": {
+        "id": "59749bcce0ec90ed59071c45c44738b7",
+        "name": "Siliconrepublic.com",
+        "url": "https://www.siliconrepublic.com",
+        "country": "ie"
+      }
+    },
+    {
+      "id": "14b37e6bb5fcce222b0cd58cc05f2d2d",
+      "title": "quality' bedding makes for a 'great night's sleep' and comes in eight colours",
+      "description": "The Hotel Stripe 230 Thread Count 100% Cotton Duvet is proving popular with Dunelm shoppers",
+      "content": "Dunelm's \u00a328 'hotel-quality' bedding makes for a 'great night's sleep' and comes in eight colours\nThe Hotel Stripe 230 Thread Count 100% Cotton Duvet is proving popular with Dunelm shoppers\nHomeowners are rushing to snap up this 'hotel-quality' beddi... [2104 chars]",
+      "url": "https://www.birminghammail.co.uk/whats-on/shopping/dunelms-28-hotel-quality-bedding-33806476",
+      "image": "https://i2-prod.birminghammail.co.uk/article33786758.ece/ALTERNATES/s1200d/2_Dunelm-The-Home-of-Homes-store-Valley-Park-Croydon.jpg",
+      "publishedAt": "2026-04-20T19:14:04Z",
+      "lang": "en",
+      "source": {
+        "id": "cc0de8416f75329df7c88d7524745d12",
+        "name": "Birmingham Live",
+        "url": "https://www.birminghammail.co.uk",
+        "country": "gb"
+      }
+    }
+  ]
+}
