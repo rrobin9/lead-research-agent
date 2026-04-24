@@ -1,44 +1,31 @@
-# Environment
-.env
-*.env.local
-
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
+*.pyc
 venv/
-env/
 .venv/
+.pytest_cache/
 *.egg-info/
-dist/
-build/
-.eggs/
-pip-log.txt
-pip-delete-this-directory.txt
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
 
 # VS Code
 .vscode/
-*.code-workspace
+
+# JetBrains IDEs
+.idea/
 
 # macOS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+
+# Windows
 Thumbs.db
 
-# Secrets / keys
-*.pem
-*.key
-credentials.json
+# Sensitive sample data
+sample_data/raw/*_private.json
 
-# n8n exports with embedded credentials
-n8n/*credentials*
-
-# Large data files
-sample_data/raw/*.json
-sample_data/outputs/*.json
+# n8n exports with credentials
+n8n/*-with-creds.json
