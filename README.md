@@ -1,6 +1,6 @@
 # AI-Powered B2B Lead Research Agent
 
-An automated pipeline that enriches B2B leads with deep research using n8n, Claude, Apollo, Tavily, Firecrawl, and NewsAPI — then scores them and drafts personalized outreach hooks.
+An automated pipeline that enriches B2B leads with deep research using n8n, Claude, Tavily, Firecrawl, and GNews — then scores them and drafts personalized outreach hooks.
 
 ## Stack
 
@@ -8,20 +8,19 @@ An automated pipeline that enriches B2B leads with deep research using n8n, Clau
 |------|------|
 | **n8n** | Workflow orchestration |
 | **Claude (Anthropic)** | Research synthesis + hook writing |
-| **Apollo.io** | Lead data enrichment (firmographics, contacts) |
 | **Tavily** | Web search for recent company signals |
-| **Firecrawl** | Deep scraping of company websites |
-| **NewsAPI** | Recent news mentions |
+| **Firecrawl** | Company enrichment: homepage + LinkedIn company page + LinkedIn people search |
+| **GNews API** | Recent news mentions (true free tier, 100 req/day) |
 | **Google Sheets** | Input/output data store |
 | **Slack** | Delivery of scored leads + hooks |
 
 ## How It Works
 
 1. Trigger: New row added to Google Sheet with company name + domain
-2. Apollo enrichment: pull firmographics, headcount, funding, key contacts
+2. Firecrawl enrichment: scrape company homepage, LinkedIn company page, and LinkedIn people search for contacts
 3. Tavily search: recent company signals (hiring, product launches, expansions)
-4. Firecrawl: scrape homepage + /about for positioning language
-5. NewsAPI: last 30 days of press coverage
+4. Firecrawl: deep scrape of homepage + /about for positioning language
+5. GNews API: last 30 days of press coverage
 6. Claude synthesis: combine all signals into a structured research brief
 7. Claude scoring: ICP fit score (0–100) + confidence level
 8. Claude hook: 2–3 personalized outreach angles

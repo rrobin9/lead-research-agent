@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-An automated B2B lead research pipeline orchestrated by **n8n** that enriches company leads with data from Apollo, Tavily, Firecrawl, and NewsAPI — then uses Claude to synthesize a research brief, score ICP fit, and draft personalized outreach hooks. Output goes to Google Sheets and Slack.
+An automated B2B lead research pipeline orchestrated by **n8n** that enriches company leads with data from Firecrawl, Tavily, and GNews — then uses Claude to synthesize a research brief, score ICP fit, and draft personalized outreach hooks. Output goes to Google Sheets and Slack.
 
 There is no Python application to run directly. The pipeline runs inside n8n; Python scripts in `scripts/` are utilities only. Claude prompts are templates with `{{variable}}` placeholders injected by n8n nodes.
 
@@ -21,11 +21,11 @@ Import `n8n/workflow.json` into your n8n instance and configure credentials usin
 ## Pipeline Flow
 
 ```
-Google Sheet (new row) 
-  → Apollo enrichment (firmographics, contacts)
+Google Sheet (new row)
+  → Firecrawl enrichment (homepage + LinkedIn company page + LinkedIn people search)
   → Tavily web search (recent signals)
-  → Firecrawl scrape (homepage + /about)
-  → NewsAPI (last 30 days)
+  → Firecrawl deep scrape (homepage + /about for positioning language)
+  → GNews API (last 30 days of press coverage)
   → Claude: prompts/01_research_synthesis.md (structured brief)
   → Claude: prompts/02_scoring_and_hook.md (ICP score 0–100 + 3 outreach hooks)
   → Google Sheet (append output) + Slack (post summary)
@@ -35,7 +35,7 @@ Google Sheet (new row)
 
 The two Claude prompts are chained: output of `01_research_synthesis.md` becomes `{{research_brief}}` input to `02_scoring_and_hook.md`.
 
-**Prompt 01** takes: `{{apollo_data}}`, `{{tavily_results}}`, `{{firecrawl_content}}`, `{{news_articles}}` → outputs a structured 6-section research brief.
+**Prompt 01** takes: `{{firecrawl_enrichment}}`, `{{tavily_results}}`, `{{firecrawl_content}}`, `{{gnews_articles}}` → outputs a structured 6-section research brief.
 
 **Prompt 02** takes: `{{research_brief}}` + `{{icp_definition}}` → outputs ICP score, disqualifiers, 3 outreach hooks (trigger/positioning/problem-based), and recommended next step.
 
@@ -45,8 +45,8 @@ The two Claude prompts are chained: output of `01_research_synthesis.md` becomes
 - Never fail silently — every error path must write a status to the Google Sheet row.
 - Firecrawl content is the first to trim if context is too long (cap at 2000 chars).
 - Validate Claude output: score must be a numeric 0–100, all 3 hooks must be present — re-prompt once if not.
-- Apollo: retry on 429 with 5s backoff (max 3 retries); pass empty object on 404.
-- Cache Apollo results — don't re-enrich the same domain within 30 days.
+- Firecrawl: if LinkedIn pages return <500 chars (login wall), flag as "not scrapeable" and continue — do not block the pipeline.
+- GNews: pass empty array on no results; small/private companies will often return nothing — expected, not an error.
 
 ## Cost Optimization
 
