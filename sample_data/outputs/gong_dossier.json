@@ -1,0 +1,127 @@
+{
+  "company_domain": "gong.io",
+  "generated_at": "2026-04-24T22:26:58.420975Z",
+  "briefing": {
+    "company_name": "Gong",
+    "domain": "gong.io",
+    "one_line_description": "AI-powered revenue intelligence platform that analyzes sales conversations to help revenue teams close deals",
+    "industry": "Enterprise Software",
+    "sub_industry": "Revenue Intelligence / Sales Enablement",
+    "employee_count": 1500,
+    "employee_range": "1000-5000",
+    "headquarters": "San Francisco, United States",
+    "founded_year": 2015,
+    "funding_stage": "Series F",
+    "total_funding_usd": 584000000,
+    "last_funding_date": "2021-10-12",
+    "tech_stack_signals": [
+      "Natural Language Processing",
+      "Machine Learning",
+      "AI Agents",
+      "Model Context Protocol (MCP)",
+      "Video Analytics",
+      "Salesforce",
+      "Zoom"
+    ],
+    "recent_signals": [
+      {
+        "type": "leadership",
+        "description": "Appointed Joe FitzGerald as Chief Legal Officer to oversee global legal affairs and regulatory compliance",
+        "date": "2026-03-16",
+        "source_hint": "Web research - press release"
+      },
+      {
+        "type": "product",
+        "description": "Launched Mission Andromeda initiative with AI sales coaching chatbot and MCP integrations as AI-native revenue platform",
+        "date": "2026-02-01",
+        "source_hint": "Web research - Sacra report"
+      },
+      {
+        "type": "news",
+        "description": "Named to Fast Company's World's Most Innovative Companies 2026 list, ranked #7 in Applied AI category",
+        "date": "2026-01-01",
+        "source_hint": "Web research - press release"
+      },
+      {
+        "type": "news",
+        "description": "Named Leader in Gartner Magic Quadrant for Revenue Action Orchestration, ranked #1 across four use cases",
+        "date": "2025-12-18",
+        "source_hint": "Web research - press release"
+      },
+      {
+        "type": "product",
+        "description": "Launched Gong Orchestrate and new AI capabilities to double rep productivity and accelerate execution 5x",
+        "date": "2025-10-21",
+        "source_hint": "Web research - PR Newswire"
+      }
+    ],
+    "decision_makers": [
+      {
+        "name": "Joe FitzGerald",
+        "title": "Chief Legal Officer",
+        "seniority": "C-level",
+        "department": "Other",
+        "linkedin_url": null
+      },
+      {
+        "name": "Amit Bendov",
+        "title": "Co-Founder",
+        "seniority": "C-level",
+        "department": "Other",
+        "linkedin_url": null
+      },
+      {
+        "name": "Eilon Reshef",
+        "title": "Co-Founder",
+        "seniority": "C-level",
+        "department": "Other",
+        "linkedin_url": null
+      }
+    ],
+    "confidence_score": 78,
+    "data_gaps": [
+      "Current CEO/executive leadership team names and titles",
+      "LinkedIn URLs for decision makers",
+      "Exact current employee count (sources show 1200+ in 2021, 1500 by end of 2025)",
+      "Current ARR or revenue figures (last reported $135M ARR in 2021)",
+      "Details on $4.5B secondary transaction mentioned in early 2026",
+      "VP and Director level contacts across key departments",
+      "Specific tech stack integrations beyond those mentioned"
+    ]
+  },
+  "dossier": {
+    "disqualified": true,
+    "disqualifier_reason": "Direct competitor - Gong is a conversation intelligence and revenue intelligence platform, explicitly named in the peer set as a direct competitor to the product being sold",
+    "fit_score": 0,
+    "tier": "DISQUALIFIED",
+    "tier_reasoning": "Gong is a direct competitor explicitly listed in the ICP peer set. They are a conversation intelligence and revenue intelligence platform - their core product directly competes with the AI-powered Sales/RevOps platform being sold. Despite strong signals (1,500 employees, Series F, recent product launches with Mission Andromeda and Gong Orchestrate), they meet the hard disqualifier rule.",
+    "icp_matches": [
+      "B2B SaaS company with clear subscription revenue model",
+      "1,500 employees - within the 50-2,000 sweet spot",
+      "Series F funding stage - mature scaling company",
+      "Strong GTM maturity with visible sales motion and revenue intelligence focus",
+      "Recent product launches (Mission Andromeda, Gong Orchestrate) indicate active innovation"
+    ],
+    "icp_gaps": [
+      "Direct competitor to the product being sold",
+      "Would never be a buyer for a competing sales/revenue intelligence platform"
+    ],
+    "recommended_action": "disqualify",
+    "personalization_hook": null,
+    "suggested_contact": null,
+    "best_channel": "email"
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5",
+    "call_1_tokens": {
+      "input": 7918,
+      "output": 939
+    },
+    "call_2_tokens": {
+      "input": 3333,
+      "output": 358
+    },
+    "total_cost_usd": 0.0532,
+    "runtime_seconds": 23.87
+  }
+}

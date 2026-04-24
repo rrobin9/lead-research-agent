@@ -1,0 +1,130 @@
+{
+  "company_domain": "linear.app",
+  "generated_at": "2026-04-24T22:32:11.216377Z",
+  "briefing": {
+    "company_name": "Linear",
+    "domain": "linear.app",
+    "one_line_description": "Product development and issue tracking system for software teams with AI-powered workflows",
+    "industry": "Enterprise Software",
+    "sub_industry": "Project Management / Developer Tools",
+    "employee_count": 87,
+    "employee_range": "50-100",
+    "headquarters": "San Francisco, United States",
+    "founded_year": 2019,
+    "funding_stage": "Series D",
+    "total_funding_usd": 184200000,
+    "last_funding_date": "2025-10-15",
+    "tech_stack_signals": [
+      "Slack",
+      "Cursor",
+      "Claude",
+      "iOS"
+    ],
+    "recent_signals": [
+      {
+        "type": "funding",
+        "description": "Raised $50M Series D at $650M valuation led by Sequoia Capital, Accel, General Catalyst",
+        "date": "2025-10-15",
+        "source_hint": "SOURCE 2: Web research (SalesTools AI)"
+      },
+      {
+        "type": "funding",
+        "description": "Raised $82M Series C at $1.25B valuation led by Accel, achieving unicorn status",
+        "date": "2025-06-10",
+        "source_hint": "SOURCE 2: Web research (TechCrunch, TechFundingNews)"
+      },
+      {
+        "type": "product",
+        "description": "Launched AI agent integration allowing Cursor to autonomously work on issues and move tasks",
+        "date": null,
+        "source_hint": "SOURCE 1: Company homepage"
+      },
+      {
+        "type": "expansion",
+        "description": "Expanded to 18,000+ paying customers including OpenAI, Perplexity, Cursor, Ramp, Vercel",
+        "date": null,
+        "source_hint": "SOURCE 2: Web research (news.aakashg.com)"
+      },
+      {
+        "type": "hiring",
+        "description": "Currently has 21 open roles representing targeted growth across product and engineering",
+        "date": null,
+        "source_hint": "SOURCE 2: Web research (JobsByCulture)"
+      }
+    ],
+    "decision_makers": [
+      {
+        "name": "Karri Saarinen",
+        "title": "CEO & Co-Founder",
+        "seniority": "C-level",
+        "department": "Other",
+        "linkedin_url": null
+      },
+      {
+        "name": "Tuomas Artman",
+        "title": "CTO & Co-Founder",
+        "seniority": "C-level",
+        "department": "Engineering",
+        "linkedin_url": null
+      },
+      {
+        "name": "Jori Lallo",
+        "title": "Co-Founder",
+        "seniority": "C-level",
+        "department": "Product",
+        "linkedin_url": null
+      }
+    ],
+    "confidence_score": 85,
+    "data_gaps": [
+      "Exact revenue figures not disclosed",
+      "LinkedIn URLs for decision makers not available",
+      "COO and Head of Product names mentioned but not provided",
+      "Conflicting funding data between Series C ($82M) and Series D ($50M) - Series D appears to be more recent",
+      "Total funding calculation unclear due to conflicting reports",
+      "Exact employee count varies between 80-100 across sources"
+    ]
+  },
+  "dossier": {
+    "disqualified": false,
+    "disqualifier_reason": null,
+    "fit_score": 58,
+    "tier": "C",
+    "tier_reasoning": "Linear is a B2B SaaS company (25/25) in the sweet spot size range at 87 employees and Series D (25/25), but shows weak GTM maturity signals with no visible sales org or RevOps hiring (5/25), and while they have recent funding and growth signals, they appear to be product-led growth focused with no clear sales motion trigger (3/25). The company is a developer tool/project management platform, not a direct competitor to sales engagement or RevOps tooling, but their PLG motion and lack of sales infrastructure makes them a nurture candidate rather than immediate outreach priority.",
+    "icp_matches": [
+      "B2B SaaS company with clear subscription model",
+      "87 employees in 50-2,000 sweet spot",
+      "Series D funding stage",
+      "Recent $50M Series D raise (Oct 2025) as timing trigger",
+      "Scaling to 18,000+ paying customers showing growth"
+    ],
+    "icp_gaps": [
+      "No visible sales organization or sales leadership roles",
+      "No SDR/AE/RevOps hiring signals in 21 open roles",
+      "Product-led growth motion with developer tool focus",
+      "No VP Sales or CRO mentioned in leadership",
+      "21 open roles are product/engineering focused, not GTM"
+    ],
+    "recommended_action": "nurture",
+    "personalization_hook": null,
+    "suggested_contact": {
+      "name": "Karri Saarinen",
+      "title": "CEO & Co-Founder",
+      "why_them": "As CEO of a rapidly scaling PLG company hitting 18K customers, he'd be the one to decide if/when to layer in a sales motion."
+    },
+    "best_channel": "linkedin"
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5",
+    "call_1_tokens": {
+      "input": 8294,
+      "output": 896
+    },
+    "call_2_tokens": {
+      "input": 3288,
+      "output": 479
+    },
+    "total_cost_usd": 0.0554,
+    "runtime_seconds": 28.91
+  }
+}

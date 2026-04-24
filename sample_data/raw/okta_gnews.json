@@ -1,0 +1,122 @@
+{
+  "information": {
+    "realTimeArticles": {
+      "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
+    }
+  },
+  "totalArticles": 7,
+  "articles": [
+    {
+      "id": "98f3dbeefc3420f8fdbcd9f4619e29cb",
+      "title": "Raymond James Is Betting Okta Stock Can Gain from Here. Should You Buy Shares Now?",
+      "description": "Okta has gone from \u201cSaaS\u2011pocalypse\u201d casualty to profitable cash generator, and with identity security sitting at the center of how enterprises manage both humans and AI agents, an upside gap to Street targets makes the risk\u2011reward look attractive.",
+      "content": "Raymond James just turned more positive on Okta (OKTA), upgrading the stock to \u201cOutperform\u201d on April 16 and setting an $85 price target. Barclays followed closely behind on April 20, upgrading OKTA stock to \u201cOverweight\u201d with a $90 price target. The m... [5577 chars]",
+      "url": "https://www.barchart.com/story/news/1429982/raymond-james-is-betting-okta-stock-can-gain-from-here-should-you-buy-shares-now",
+      "image": "https://media.barchart.com/contributors-admin/common-images/images/Stocks%2C%20Markets%2C%20%26%20Global%20Economy/Charts%2C%20tickers%2C%20traders/Businessman%20pointing%20arrow%20graph%20corporate%20future%20growth%20by%20Marchmeena29%20via%20iStock.jpg",
+      "publishedAt": "2026-04-21T17:34:12Z",
+      "lang": "en",
+      "source": {
+        "id": "f81e0cedbddbe08e3058634e8bb4a56f",
+        "name": "Barchart",
+        "url": "https://www.barchart.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "793f0c644385b65173a424b1087d9f20",
+      "title": "Monday stocks from analyst calls include Nvidia, Apple, Tesla, Okta",
+      "description": "Here are the biggest calls on Wall Street on Monday.",
+      "content": "Here are the biggest calls on Wall Street on Monday: Jefferies reiterates Tesla as hold Jefferies raised its price target on Tesla t o $350 per share from $300 ahead of earnings. \"Q1 results will show further widening of the gap between vision and ex... [6070 chars]",
+      "url": "https://www.cnbc.com/2026/04/20/monday-stocks-from-analyst-calls-include-nvidia-apple-tesla-okta.html",
+      "image": "https://image.cnbcfm.com/api/v1/image/107373737-17079332462024-02-05t130023z_1464897028_rc2tu3a8zdw8_rtrmadp_0_chips-forecast-2024.jpeg?v=1714047818&w=1920&h=1080",
+      "publishedAt": "2026-04-20T12:20:56Z",
+      "lang": "en",
+      "source": {
+        "id": "29e94cdd2d4f6a3ca7108bb0293087c6",
+        "name": "CNBC",
+        "url": "https://www.cnbc.com",
+        "country": "us"
+      }
+    },
+    {
+      "id": "d4bbc9c2c3fae829c751d3128aeccf4a",
+      "title": "Barclays Upgrades Okta to Overweight From Equalweight, Price Target is $85",
+      "description": "Okta has an average rating of overweight and mean price target of $100.58, according to analysts polled by FactSet.\n...",
+      "content": "Trader\nThis super rating is the result of a weighted average of the rankings based on the following ratings: Valuation (Composite), EPS Revisions (4 months), and Visibility (Composite). We recommend that you carefully review the associated descriptio... [1103 chars]",
+      "url": "https://www.marketscreener.com/news/barclays-upgrades-okta-to-overweight-from-equalweight-price-target-is-85-ce7f59dad989f626",
+      "image": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+      "publishedAt": "2026-04-20T11:48:19Z",
+      "lang": "en",
+      "source": {
+        "id": "20cff2bcbc7e0fce7e6182772a9e2a7e",
+        "name": "MarketScreener",
+        "url": "https://www.marketscreener.com",
+        "country": "fr"
+      }
+    },
+    {
+      "id": "756e5bbab4ab197aee757e0247403198",
+      "title": "Okta Shares Rise After Upgrade From Raymond James",
+      "description": "Okta shares were up over 6% in afternoon trading on Thursday after Raymond James upgraded the company's stock to outperform from market perform.\nTrading volume stood at over 3.5 million shares...",
+      "content": "Trader\nThis super rating is the result of a weighted average of the rankings based on the following ratings: Valuation (Composite), EPS Revisions (4 months), and Visibility (Composite). We recommend that you carefully review the associated descriptio... [1103 chars]",
+      "url": "https://www.marketscreener.com/news/okta-shares-rise-after-upgrade-from-raymond-james-ce7e50d2d98ef127",
+      "image": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+      "publishedAt": "2026-04-16T18:48:08Z",
+      "lang": "en",
+      "source": {
+        "id": "20cff2bcbc7e0fce7e6182772a9e2a7e",
+        "name": "MarketScreener",
+        "url": "https://www.marketscreener.com",
+        "country": "fr"
+      }
+    },
+    {
+      "id": "7efd6bb8a711455e5a8248baed80b958",
+      "title": "iTWire TV: Your AI agents are already inside the building, and nobody knows who they report to - but Okta does",
+      "description": "GUEST INTERVIEW: Okta's\u00a0Ariel Kadyshevitch\u00a0says visibility is the single most important thing a CISO can do right now to get non-human i...",
+      "content": "88% of organisations report suspected or confirmed AI agent security incidents. Only 22% treat those agents as independent identity-bearing entities. That gap should terrify anyone responsible for enterprise security. And it's exactly the problem Ari... [11485 chars]",
+      "url": "https://itwire.com/guest-articles/guest-interviews/itwire-tv-your-ai-agents-are-already-inside-the-building,-and-nobody-knows-who-they-report-to-%E2%80%93-but-okta-does.html",
+      "image": "https://itwire.com/media/k2/items/cache/178aef1edf33ee7277cd215a82991bb8_XS.jpg",
+      "publishedAt": "2026-04-10T23:12:58Z",
+      "lang": "en",
+      "source": {
+        "id": "10cbfb3760cfcdeb78c733c527f0e814",
+        "name": "iTWire",
+        "url": "https://itwire.com",
+        "country": "au"
+      }
+    },
+    {
+      "id": "656da93b6d1d12a3340069c2097e6e63",
+      "title": "Your AI agents are already inside the building, and nobody knows who they report to - but Okta does",
+      "description": "GUEST INTERVIEW: Okta's\u00a0Ariel Kadyshevitch\u00a0says visibility is the single most important thing a CISO can do right now to get non-human i...",
+      "content": "88% of organisations report suspected or confirmed AI agent security incidents. Only 22% treat those agents as independent identity-bearing entities. That gap should terrify anyone responsible for enterprise security. And it's exactly the problem Ari... [11485 chars]",
+      "url": "https://itwire.com/business-it-news/data/your-ai-agents-are-already-inside-the-building,-and-nobody-knows-who-they-report-to-%E2%80%93-but-okta-does.html",
+      "image": "https://itwire.com/media/k2/items/cache/c11a738b22b6cd509acb702c2cb28089_XS.jpg",
+      "publishedAt": "2026-04-10T22:43:47Z",
+      "lang": "en",
+      "source": {
+        "id": "10cbfb3760cfcdeb78c733c527f0e814",
+        "name": "iTWire",
+        "url": "https://itwire.com",
+        "country": "au"
+      }
+    },
+    {
+      "id": "4dbf28e518934ae37b6395733aa36c2d",
+      "title": "Okta Stock Is Testing A Level That Could Define The Next Move",
+      "description": "Okta Inc (NASDAQ:OKTA) shares are dipping lower as traders continue to rotate out of weaker software names despite sector strength.",
+      "content": "Okta stock is testing key support levels. What\u2019s pressuring OKTA?\nWhen The Tape Is Green But OKTA Is Red\nThe backdrop is supportive: Technology is the top\u2011performing sector, breadth is mildly positive, and risk appetite is intact. In that kind of tap... [2167 chars]",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/04/51757377/okta-stock-is-testing-a-level-that-could-define-the-next-move",
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/10/Strong-Revenue-Outlook.jpeg?width=1200&height=800&fit=crop",
+      "publishedAt": "2026-04-10T15:47:37Z",
+      "lang": "en",
+      "source": {
+        "id": "d4e7f6a65e15620f4e4044691a99d0fd",
+        "name": "Benzinga",
+        "url": "https://www.benzinga.com",
+        "country": "us"
+      }
+    }
+  ]
+}

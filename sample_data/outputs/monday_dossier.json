@@ -1,0 +1,98 @@
+{
+  "company_domain": "monday.com",
+  "generated_at": "2026-04-24T22:25:15.407694Z",
+  "briefing": {
+    "company_name": "monday.com",
+    "domain": "monday.com",
+    "one_line_description": "AI-powered work platform for project management, CRM, marketing, and software development teams",
+    "industry": "Software",
+    "sub_industry": "Work Management & Collaboration",
+    "employee_count": null,
+    "employee_range": null,
+    "headquarters": null,
+    "founded_year": null,
+    "funding_stage": "Public",
+    "total_funding_usd": null,
+    "last_funding_date": null,
+    "tech_stack_signals": [
+      "AI Assistant",
+      "AI Agents",
+      "AI Workflows",
+      "AI App Builder",
+      "Work Management",
+      "CRM",
+      "Marketing Campaigns",
+      "Dev Tools",
+      "Service Management",
+      "WorkCanvas"
+    ],
+    "recent_signals": [
+      {
+        "type": "product",
+        "description": "Launched AI agents and AI-powered work platform features prominently on homepage",
+        "date": "2026-01-01",
+        "source_hint": "Company homepage"
+      },
+      {
+        "type": "news",
+        "description": "Announced Q4 FY2025 results with $333.9M revenue, up 25% year-over-year",
+        "date": "2026-02-01",
+        "source_hint": "Investor relations press release"
+      },
+      {
+        "type": "news",
+        "description": "Published blog post on kicking off strong 2025 with team vision setting",
+        "date": "2025-01-01",
+        "source_hint": "Company blog"
+      }
+    ],
+    "decision_makers": [],
+    "confidence_score": 45,
+    "data_gaps": [
+      "Employee count and range not available in sources",
+      "Headquarters location not mentioned",
+      "Founded year not stated",
+      "Total funding amount not disclosed (public company)",
+      "No decision maker information provided in any source",
+      "Limited recent signals - only financial results and product updates visible",
+      "No hiring, expansion, or partnership announcements found",
+      "Tech stack inferred from product offerings rather than explicit technology mentions"
+    ]
+  },
+  "dossier": {
+    "disqualified": false,
+    "disqualifier_reason": null,
+    "fit_score": 48,
+    "tier": "C",
+    "tier_reasoning": "monday.com is a publicly-traded work management platform with strong revenue growth (25% YoY to $333.9M in Q4 FY2025), but their core product is work management/collaboration software, not B2B SaaS sales tooling. While they have a CRM module as an adjacency, they're not primarily a sales engagement or RevOps platform, so they don't trip the direct competitor disqualifier. However, their GTM motion and buyer profile differ significantly from our ICP's sweet spot of 50-2,000 employee B2B SaaS companies scaling sales teams. They're a large public company with an established market position, making them a partial fit at best.",
+    "icp_matches": [
+      "Software company with subscription revenue model",
+      "Public company with clear growth trajectory (25% YoY revenue growth)",
+      "Has CRM product line suggesting sales motion exists"
+    ],
+    "icp_gaps": [
+      "Not primarily a B2B SaaS company selling to other SaaS companies - they're a horizontal work management platform",
+      "Public company likely well beyond the 2,000 employee sweet spot (employee count unavailable but revenue scale suggests large org)",
+      "No visible signals of sales team expansion, SDR/AE hiring, or RevOps leadership changes",
+      "No specific buying signals or trigger events beyond general growth",
+      "CRM is an adjacency to their core work management product, not their primary business"
+    ],
+    "recommended_action": "nurture",
+    "personalization_hook": null,
+    "suggested_contact": null,
+    "best_channel": "linkedin"
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5",
+    "call_1_tokens": {
+      "input": 7726,
+      "output": 563
+    },
+    "call_2_tokens": {
+      "input": 2957,
+      "output": 433
+    },
+    "total_cost_usd": 0.047,
+    "runtime_seconds": 23.04
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "company_domain": "okta.com",
+  "generated_at": "2026-04-24T22:52:41.286106Z",
+  "briefing": {
+    "company_name": "Okta",
+    "domain": "okta.com",
+    "one_line_description": "Provider of identity and access management solutions for workforce, customers, and AI agents",
+    "industry": "Cybersecurity",
+    "sub_industry": "Identity and Access Management",
+    "employee_count": 5908,
+    "employee_range": "5000-10000",
+    "headquarters": "San Francisco, United States",
+    "founded_year": 2009,
+    "funding_stage": "Public",
+    "total_funding_usd": 228000000,
+    "last_funding_date": null,
+    "tech_stack_signals": [
+      "Auth0",
+      "Okta Workforce Identity",
+      "Okta Customer Identity",
+      "Multi-factor Authentication",
+      "Passwordless Authentication"
+    ],
+    "recent_signals": [
+      {
+        "type": "product",
+        "description": "Released Q1 2025 Platform updates focusing on AI agent authorization and phishing protection",
+        "date": "2026-03-01",
+        "source_hint": "Company homepage and web research"
+      },
+      {
+        "type": "news",
+        "description": "Raymond James upgraded stock to Outperform, shares rose 6% on improved profitability outlook",
+        "date": "2026-04-16",
+        "source_hint": "Recent news"
+      },
+      {
+        "type": "news",
+        "description": "Barclays upgraded to Overweight with $85 price target, average analyst target $100.58",
+        "date": "2026-04-20",
+        "source_hint": "Recent news"
+      },
+      {
+        "type": "funding",
+        "description": "Invested in Knox Systems, Replit, and Sapiom as part of strategic investment activity",
+        "date": "2026-03-17",
+        "source_hint": "Web research"
+      },
+      {
+        "type": "product",
+        "description": "Launched AI agent security solutions across full lifecycle with neutral extensible platform",
+        "date": "2026-01-01",
+        "source_hint": "Company homepage"
+      }
+    ],
+    "decision_makers": [
+      {
+        "name": "Takashi Watanabe",
+        "title": "Vice President, Japan",
+        "seniority": "VP",
+        "department": "Sales",
+        "linkedin_url": null
+      },
+      {
+        "name": "Karl Henrik Smith",
+        "title": "Staff Product Marketing Manager, Security",
+        "seniority": "Manager",
+        "department": "Marketing",
+        "linkedin_url": null
+      },
+      {
+        "name": "Ariel Kadyshevitch",
+        "title": "CISO or Security Leadership",
+        "seniority": "C-level",
+        "department": "Engineering",
+        "linkedin_url": null
+      }
+    ],
+    "confidence_score": 78,
+    "data_gaps": [
+      "Current C-suite executives (CEO, CFO, CTO) not identified",
+      "LinkedIn URLs for decision makers",
+      "Exact IPO date and valuation details",
+      "Most recent funding round details (appears to be public since before 2025)",
+      "Specific hiring signals or headcount growth trends",
+      "Customer count or ARR metrics"
+    ]
+  },
+  "dossier": {
+    "disqualified": true,
+    "disqualifier_reason": "Core business model is not software \u2014 Okta is a cybersecurity/identity management company, not a B2B SaaS company selling sales engagement, pipeline intelligence, or revenue operations tooling. While they sell software, their product category (identity and access management) does not align with the ICP's focus on sales/RevOps platforms.",
+    "fit_score": 0,
+    "tier": "DISQUALIFIED",
+    "tier_reasoning": "Okta is disqualified because their core business is identity and access management (cybersecurity), not sales/RevOps tooling. They are not a prospect for a sales engagement or pipeline intelligence platform \u2014 they would be selling to security/IT buyers, not sales/RevOps leaders. This is a category mismatch, not a competitor issue.",
+    "icp_matches": [
+      "Clearly B2B SaaS with subscription revenue model",
+      "Public company with established market presence",
+      "Has visible sales organization (VP Sales identified)"
+    ],
+    "icp_gaps": [
+      "Wrong product category \u2014 sells identity/access management, not sales/RevOps tools",
+      "5,908 employees \u2014 outside the 50-2,000 sweet spot, enterprise scale",
+      "Sells to security/IT buyers, not sales/RevOps leaders",
+      "No visible sales hiring signals or GTM expansion in the briefing"
+    ],
+    "recommended_action": "disqualify",
+    "personalization_hook": null,
+    "suggested_contact": null,
+    "best_channel": "email"
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5",
+    "call_1_tokens": {
+      "input": 5855,
+      "output": 849
+    },
+    "call_2_tokens": {
+      "input": 3243,
+      "output": 391
+    },
+    "total_cost_usd": 0.0459,
+    "runtime_seconds": 25.96
+  }
+}

@@ -28,7 +28,8 @@ from dotenv import load_dotenv
 # Config
 # ----------------------------------------------------------------------
 
-COMPANY_DOMAIN = "stripe.com"
+COMPANY_DOMAIN = sys.argv[1] if len(sys.argv) > 1 else "stripe.com"
+SLUG = COMPANY_DOMAIN.split(".")[0]
 
 MODEL = "claude-sonnet-4-5"
 
@@ -43,14 +44,14 @@ RAW_DIR = REPO_ROOT / "sample_data" / "raw"
 OUT_DIR = REPO_ROOT / "sample_data" / "outputs"
 PROMPTS_DIR = REPO_ROOT / "prompts"
 
-FIRECRAWL_PATH = RAW_DIR / "stripe_firecrawl.json"
-TAVILY_PATH = RAW_DIR / "stripe_tavily.json"
-GNEWS_PATH = RAW_DIR / "stripe_gnews.json"
+FIRECRAWL_PATH = RAW_DIR / f"{SLUG}_firecrawl.json"
+TAVILY_PATH = RAW_DIR / f"{SLUG}_tavily.json"
+GNEWS_PATH = RAW_DIR / f"{SLUG}_gnews.json"
 
 PROMPT_01_PATH = PROMPTS_DIR / "01_research_synthesis.md"
 PROMPT_02_PATH = PROMPTS_DIR / "02_scoring_and_hook.md"
 
-OUTPUT_PATH = OUT_DIR / "stripe_dossier.json"
+OUTPUT_PATH = OUT_DIR / f"{SLUG}_dossier.json"
 
 WIDTH = 64
 
@@ -216,7 +217,7 @@ def print_summary(
     company_name = resolve_company_name(briefing, domain)
 
     print("=" * WIDTH)
-    print("  LEAD RESEARCH AGENT — DOSSIER")
+    print(f"  LEAD RESEARCH AGENT — DOSSIER  [{SLUG}]")
     print("=" * WIDTH)
     print()
     print(f"Company: {company_name} ({domain})")

@@ -1,16 +1,16 @@
-"""Smoke test for Firecrawl company enrichment.
+"""Smoke test for Firecrawl company-homepage scraping.
 
-Runs three Firecrawl /scrape calls against Stripe as a known-good target:
-  (a) company homepage
-  (b) LinkedIn company page
-  (c) LinkedIn people search (surfacing decision-maker names/titles)
+Scrapes `https://<domain>` via Firecrawl /scrape (markdown format) and saves
+the response to sample_data/raw/<slug>_firecrawl.json.
 
-Combines all three responses into a single JSON blob and saves it to
-sample_data/raw/stripe_firecrawl.json for shape inspection.
+LinkedIn scraping was dropped from this fixture after the Stripe validation
+run — Firecrawl returns 403 on LinkedIn company and people-search pages
+under their current policy, so there's no point hitting it. Decision-maker
+extraction happens downstream from Tavily results in the agent.
 
-LinkedIn pages frequently return a login wall — the script does NOT abort
-when a single call fails; it records the error in the output slot and
-continues, so you can see what Firecrawl can and can't pull in practice.
+Usage:
+  python scripts/test_firecrawl.py               # defaults to stripe.com
+  python scripts/test_firecrawl.py gong.io
 """
 
 import json
@@ -23,13 +23,7 @@ from dotenv import load_dotenv
 
 
 FIRECRAWL_URL = "https://api.firecrawl.dev/v1/scrape"
-OUTPUT_PATH = Path(__file__).resolve().parent.parent / "sample_data" / "raw" / "stripe_firecrawl.json"
-
-TARGETS = {
-    "homepage": "https://stripe.com",
-    "linkedin_company": "https://www.linkedin.com/company/stripe",
-    "linkedin_people": "https://www.linkedin.com/search/results/people/?keywords=stripe%20vp%20sales",
-}
+RAW_DIR = Path(__file__).resolve().parent.parent / "sample_data" / "raw"
 
 
 def scrape(url: str, api_key: str) -> dict:
@@ -56,6 +50,11 @@ def scrape(url: str, api_key: str) -> dict:
 
 
 def main() -> None:
+    domain = sys.argv[1] if len(sys.argv) > 1 else "stripe.com"
+    slug = domain.split(".")[0]
+    homepage_url = f"https://{domain}"
+    output_path = RAW_DIR / f"{slug}_firecrawl.json"
+
     load_dotenv()
     api_key = os.getenv("FIRECRAWL_API_KEY")
     if not api_key or api_key.startswith("fc-..."):
@@ -63,20 +62,18 @@ def main() -> None:
         print("Copy .env.example to .env and fill in a real Firecrawl API key.", file=sys.stderr)
         sys.exit(1)
 
-    combined: dict[str, dict] = {}
-    for label, url in TARGETS.items():
-        print(f"Scraping {label}: {url}")
-        combined[label] = scrape(url, api_key)
+    print(f"Scraping homepage: {homepage_url}")
+    combined = {"homepage": scrape(homepage_url, api_key)}
 
     print("\n--- Combined response ---")
     print(json.dumps(combined, indent=2)[:4000])
     if len(json.dumps(combined)) > 4000:
         print("... (truncated in terminal; full blob written to file)")
 
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(combined, indent=2))
-    size = OUTPUT_PATH.stat().st_size
-    print(f"\n✅ Saved {size} chars to {OUTPUT_PATH}")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(combined, indent=2))
+    size = output_path.stat().st_size
+    print(f"\n✅ Saved {size} chars to {output_path}")
 
 
 if __name__ == "__main__":

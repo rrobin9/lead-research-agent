@@ -33,8 +33,8 @@ Score the company across four dimensions, each worth 0–25 (total 100). If any 
 - **0** — Layoffs, declining signals, or recently acquired (integration freeze)
 
 ### Disqualifiers (if any are true, set `disqualified=true` and `fit_score=0` — see schema for the full behavior)
-- Direct competitor to the Sales/RevOps tool vendor
-- Explicitly not a software company (bank, retailer, airline, etc.)
+- Direct competitor — specifically, a company whose primary product is itself a sales engagement, pipeline intelligence, revenue operations, or conversation intelligence platform. The peer set is the named list above (Clay, Apollo, Outreach, Gong, Salesloft, Clari, Default) and close analogs (e.g. Instantly, Reply.io, Mixmax for sales engagement; Chorus, Avoma for conversation intelligence; Aviso, InsightSquared for pipeline intelligence). Companies with CRM or work-management features as an adjacency to a different core product (monday.com, Notion, Airtable, Asana, ClickUp) are NOT direct competitors — they may be prospects or partners depending on their sales motion.
+- Core business model is not software — includes banks, retailers, airlines, hardware vendors, payment processors, fintech/payments infrastructure (Stripe, Adyen, Plaid, Square), marketplaces where the product is transactions not software, and professional services firms. If a company sells software APIs but derives revenue primarily from transaction fees, percentage cuts, or payment volume rather than subscription licenses, they fall under this disqualifier.
 - Government agency or non-profit
 
 ### What a good personalization hook looks like for this ICP
@@ -90,8 +90,7 @@ Return ONLY valid JSON. No markdown fences, no commentary, no preamble.
   (a funding round, a hire, a product launch, a blog post).
 - If `disqualified` is true, set `personalization_hook` to null — 
   we do not generate hooks for leads we've already filtered out.
-- If the briefing has zero specific signals, set personalization_hook 
-  to null and drop tier by one level — we won't do generic outreach.
+- If the briefing has zero specific, named signals (no funding rounds, no named exec hires, no product launches, no dated events), set personalization_hook to null and drop tier by one level. Having at least one concrete, named signal — even if the company's GTM motion doesn't match the ICP — is enough to write a hook; the hook can acknowledge the GTM mismatch as the angle itself (e.g. "scaling past PLG", "building sales motion").
 - The hook should make the recipient think "this person actually did 
   their homework" not "this is a template."
 
